@@ -1,6 +1,6 @@
 %define name	lexed
 %define version	4.7
-%define release	%mkrel 2
+%define release	%mkrel 3
 %define major	%{version}
 %define libname %mklibname %{name} %{major}
 
