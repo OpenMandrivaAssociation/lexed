@@ -1,6 +1,6 @@
 %define name	lexed
 %define version	4.7
-%define release	%mkrel 3
+%define release	%mkrel 4
 %define major	%{version}
 %define libname %mklibname %{name} %{major}
 
@@ -35,6 +35,7 @@ Group:		Development/Other
 Requires:	%{libname} = %{version}
 Provides:	lib%{name}-devel = %{version}-%{release}
 Provides:	%{name}-devel = %{version}-%{release}
+Conflicts:	liblexed4.6-devel
 
 %description -n %{libname}-devel
 This package contains the headers that programmers will need to develop
