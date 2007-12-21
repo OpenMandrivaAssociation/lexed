@@ -13,6 +13,7 @@ URL:		https://gforge.inria.fr/projects/lingwb/
 License:	GPL
 Group:		Sciences/Computer science
 Requires:	%{libname} = %{version}-%{release}
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 Lexed allows to search a dictionary entry from a string. The finished
