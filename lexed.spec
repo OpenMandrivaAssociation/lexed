@@ -4,7 +4,7 @@
 
 Name:		lexed
 Version:	4.7
-Release:	10
+Release:	11
 Summary:	Lexicon analyser
 Source:		https://gforge.inria.fr/frs/download.php/1489/%{name}-%{version}.tar.bz2
 URL:		https://gforge.inria.fr/projects/lingwb/
